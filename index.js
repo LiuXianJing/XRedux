@@ -1,6 +1,6 @@
 
 const isPlainObject = (data) => {
-    return Object.prototype.toString.call(data) === '[Object object]'
+    return Object.prototype.toString.call(data) === '[object Object]'
 }
 
 const createStore = (reducer) => {
